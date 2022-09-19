@@ -16,7 +16,7 @@ function NewsletterRegistration() {
         "Content-Type": "application/json",
       },
     })
-      .then((res) => res.json())
+      .then((response) => response.json())
       .then((data) => console.log(data));
   }
 

@@ -10,7 +10,7 @@ async function handler(req, res) {
     }
 
     const client = await MongoClient.connect(
-      "mongodb+srv://lucasjcoder:DStM0j19cJqyBa0A@mern-auth.2l7en.mongodb.net/nextjs-demo?retryWrites=true&w=majority"
+      "mongodb+srv://database-admin:MernAuth2022@mern-auth.2l7en.mongodb.net/?retryWrites=true&w=majority"
     );
     const db = client.db();
 
